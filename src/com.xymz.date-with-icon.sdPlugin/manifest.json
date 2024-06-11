@@ -1,0 +1,43 @@
+{
+	"SDKVersion": 2,
+	"Author": "Kang Sungyong",
+	"CodePath": "app.html",
+	"Description": "Simple date display plugin",
+	"Name": "Stream Deck Date Display",
+	"Icon": "actions/template/assets/action",
+	"URL": "https://www.elgato.com/en/gaming/stream-deck",
+	"Version": "0.0.1",
+	"Software": {
+		"MinimumVersion": "5.0"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.11"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Category": "Calendar",
+	"CategoryIcon": "actions/template/assets/actionimage",
+	"Actions": [
+		{
+			"Icon": "actions/template/assets/actionimage",
+			"Name": "Date Display",
+			"Controllers": ["Keypad", "Encoder"],
+			"Encoder": {
+				"layout": "$B1"
+			},
+			"States": [
+				{
+					"Image": "actions/template/assets/action"
+				}
+			],
+			"Tooltip": "Display the current date",
+			"UUID": "com.xymz.icon-with-date.action",
+			"PropertyInspectorPath": "actions/template/property-inspector/inspector.html"
+		}
+	]
+}
